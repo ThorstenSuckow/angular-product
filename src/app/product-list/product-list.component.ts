@@ -14,6 +14,11 @@ export class ProductListComponent {
     console.log(product);
     //window.alert('The product  has been shared!');
   }
+
+  
+  onNotify(product: Product) {
+    console.log('You will be notified when the product goes on sale', product);
+  }
 }
 
 

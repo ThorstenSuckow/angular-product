@@ -17,7 +17,8 @@ can be found in the LICENSE file at https://angular.io/license
 </button>
 
 <app-product-alert
-  [product]="product">
+  [product]="product"
+  (notify)="onNotify(product)">
 </app-product-alert>
     
 </div>

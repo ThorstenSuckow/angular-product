@@ -11,6 +11,6 @@ export class ProductAlertComponent {
 
   @Input() product!: Product;
 
-  @Output() notify: new EventEmitter();
+  @Output() notify = new EventEmitter();
 
 }
